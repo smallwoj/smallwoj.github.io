@@ -3,28 +3,72 @@
     <v-app-bar
       app
       color="primary"
-      dark
     >
-      <h1 class="d-flex align-center">
-        Joshua Smallwood
-      </h1>
+      <v-col cols="auto">
+        <v-btn
+          icon
+        >
+          <v-icon>mdi-menu</v-icon>
+        </v-btn>
+      </v-col>
+      <v-divider vertical />
+      <v-col>
+        <h1 class="secondary--text">Joshua Smallwood</h1>
+      </v-col>
+      <v-spacer />
+      <v-col cols="auto">
+        <v-btn
+          icon
+          href="https://www.linkedin.com/in/joshua-smallwood-b6a4a21a9/"
+          target="_blank"
+        >
+          <v-icon>mdi-linkedin</v-icon>
+        </v-btn>
+      </v-col>
+      <v-col cols="auto">
+        <v-btn
+          icon
+          href="https://www.github.com/smallwoj/"
+          target="_blank"
+        >
+          <v-icon>mdi-github</v-icon>
+        </v-btn>
+      </v-col>
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <v-row class="text-center">
+        <v-col>
+          <personal-info />
+        </v-col>
+      </v-row>
+      <v-row class="text-center">
+        <v-col>
+          <technologies />
+        </v-col>
+      </v-row>
+      <v-row class="text-center">
+        <v-col>
+          <projects />
+        </v-col>
+      </v-row>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import PersonalInfo from './components/PersonalInfo';
+import Technologies from './components/Technologies';
+import Projects from './components/Projects';
 
 export default {
   name: 'App',
   title: 'Joshua Smallwood',
 
   components: {
-    HelloWorld,
+    PersonalInfo,
+    Technologies,
+    Projects,
   },
 
   data: () => ({
