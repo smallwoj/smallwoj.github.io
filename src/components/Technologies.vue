@@ -1,5 +1,5 @@
 <template>
-  <span>technologies go here</span>
+  <span></span>
 </template>
 
 <script>

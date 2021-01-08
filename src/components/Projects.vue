@@ -1,5 +1,5 @@
 <template>
-  <span>Projects go here</span>
+  <span></span>
 </template>
 
 <script>

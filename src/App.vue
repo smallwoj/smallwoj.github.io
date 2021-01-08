@@ -37,20 +37,26 @@
     </v-app-bar>
 
     <v-main>
-      <v-row class="text-center">
-        <v-col>
+      <v-row>
+        <v-spacer />
+        <v-col cols="auto">
           <personal-info />
         </v-col>
+        <v-spacer />
       </v-row>
-      <v-row class="text-center">
-        <v-col>
+      <v-row>
+        <v-spacer />
+        <v-col cols="auto">
           <technologies />
         </v-col>
+        <v-spacer />
       </v-row>
-      <v-row class="text-center">
-        <v-col>
+      <v-row>
+        <v-spacer />
+        <v-col cols="auto">
           <projects />
         </v-col>
+        <v-spacer />
       </v-row>
     </v-main>
   </v-app>
