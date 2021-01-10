@@ -12,7 +12,7 @@
         </v-btn>
       </v-col>
       <v-divider vertical />
-      <v-col>
+      <v-col cols="auto">
         <h1 class="secondary--text">Joshua Smallwood</h1>
       </v-col>
       <v-spacer />
@@ -39,21 +39,30 @@
     <v-main>
       <v-row>
         <v-spacer />
-        <v-col cols="auto">
+        <v-col
+          cols="12"
+          md="6"
+        >
           <personal-info />
         </v-col>
         <v-spacer />
       </v-row>
       <v-row>
         <v-spacer />
-        <v-col cols="auto">
+        <v-col
+          cols="12"
+          md="6"
+        >
           <technologies />
         </v-col>
         <v-spacer />
       </v-row>
       <v-row>
         <v-spacer />
-        <v-col cols="auto">
+        <v-col
+          cols="12"
+          md="6"
+        >
           <projects />
         </v-col>
         <v-spacer />
