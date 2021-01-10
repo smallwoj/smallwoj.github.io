@@ -30,6 +30,22 @@
               development environment without extensive testing.
             </p>
           </v-card-text>
+          <v-card-actions>
+            <v-btn
+              href="https://www.linkedin.com/in/joshua-smallwood-b6a4a21a9/"
+              target="_blank"
+            >
+              <v-icon left>mdi-linkedin</v-icon>
+              LinkedIn
+            </v-btn>
+            <v-btn
+              href="https://www.github.com/smallwoj/"
+              target="_blank"
+            >
+              <v-icon left>mdi-github</v-icon>
+              GitHub
+            </v-btn>
+          </v-card-actions>
         </v-card>
       </v-row>
     </v-container>
