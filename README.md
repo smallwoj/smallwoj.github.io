@@ -1,4 +1,4 @@
-# my-app
+# smallwoj
 
 ## Project setup
 ```
