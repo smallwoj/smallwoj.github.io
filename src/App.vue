@@ -16,7 +16,10 @@
         <span class="secondary--text font-weight-medium text-h5 text-md-h3">Joshua Smallwood</span>
       </v-col>
       <v-spacer />
-      <v-col cols="auto">
+      <v-col 
+        v-if="!$vuetify.breakpoint.mobile"
+        cols="auto"
+      >
         <v-btn
           icon
           href="https://www.linkedin.com/in/joshua-smallwood-b6a4a21a9/"
@@ -25,7 +28,10 @@
           <v-icon>mdi-linkedin</v-icon>
         </v-btn>
       </v-col>
-      <v-col cols="auto">
+      <v-col 
+        v-if="!$vuetify.breakpoint.mobile"
+        cols="auto"
+      >
         <v-btn
           icon
           href="https://www.github.com/smallwoj/"
