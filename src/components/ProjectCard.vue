@@ -18,7 +18,7 @@
     </v-img>
     <v-dialog 
       v-model="dialog"
-      max-width="50%"
+      :max-width="dialogSize"
     >
       <v-card>
         <slot name="carousel" />
@@ -78,6 +78,16 @@ export default {
   data() {
     return {
       dialog: false,
+    }
+  },
+  computed: {
+    dialogSize() {
+      if (this.$vuetify.breakpoint.mobile) {
+        return '75%';
+      }
+      else {
+        return '50%';
+      }
     }
   },
 }
