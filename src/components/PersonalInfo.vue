@@ -17,7 +17,7 @@
         <v-subheader>Welcome to my personal website!</v-subheader>
       </v-row>
       <v-row justify="center">
-        <v-card max-width="750">
+        <v-card >
           <v-card-title>About Me</v-card-title>
           <v-card-text>
             <p>

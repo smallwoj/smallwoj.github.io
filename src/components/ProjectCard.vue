@@ -1,22 +1,27 @@
 <template>
+  <v-hover v-slot="{ hover }">
   <v-card
     @click="dialog = true"
+    height="100%"
+    max-width="300px"
+    :elevation="hover ? 12 : 2"
+    :class="{ 'on-hover': hover }"
   >
     <v-img
       :src="image"
-      width="100%"
-    />
-    <v-card-title>{{ title }}</v-card-title>
-    <v-dialog
+      max-width="250px"
+      max-height="200px"
+      class="white--text align-end"
+      gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+    >
+      <v-card-title>{{ title }}</v-card-title>
+    </v-img>
+    <v-dialog 
       v-model="dialog"
+      max-width="50%"
     >
       <v-card>
-        <v-carousel
-          cycle
-          width="100%"
-        >
-          <slot name="carousel-images" />
-        </v-carousel>
+        <slot name="carousel" />
         <v-card-title>{{ title }}</v-card-title>
         <v-card-text><slot name="text" /></v-card-text>
         <v-card-actions>
@@ -47,6 +52,7 @@
       </v-card>
     </v-dialog>
   </v-card>
+  </v-hover>
 </template>
 
 <script>
