@@ -13,7 +13,7 @@
       </v-col>
       <v-divider vertical />
       <v-col cols="auto">
-        <h1 class="secondary--text">Joshua Smallwood</h1>
+        <span class="secondary--text font-weight-medium text-h5 text-md-h3">Joshua Smallwood</span>
       </v-col>
       <v-spacer />
       <v-col cols="auto">

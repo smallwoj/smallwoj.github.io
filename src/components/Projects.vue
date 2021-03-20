@@ -8,7 +8,7 @@
       <v-spacer />
     </v-row>
     <v-row>
-      <v-spacer />
+      <v-spacer v-if="!$vuetify.breakpoint.mobile" />
       <v-col cols="auto">
         <project-card
           title="Crazy Tennis!"
@@ -79,7 +79,7 @@
           </template>
         </project-card>
       </v-col>
-      <v-spacer />
+      <v-spacer v-if="!$vuetify.breakpoint.mobile" />
     </v-row>
   </v-container>
 </template>
