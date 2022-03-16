@@ -21,7 +21,7 @@
           <v-card-title>About Me</v-card-title>
           <v-card-text>
             <p>
-              I am currently a 4th year Computer Science student at the University of Manitoba in the Co-op Program. I am
+              I am currently a 5th year Computer Science student at the University of Manitoba in the Co-op Program. I am
               also a part-time Junior Data Engineer at FarmLink Marketing Solutions, where I work in the full stack to 
               develop a comprehensive web application.
             </p>
