@@ -54,7 +54,7 @@
       <v-col cols="auto">
         <project-card
           title="Join Sound Johnson"
-          image="https://raw.githubusercontent.com/smallwoj/join-sound-johnson/c768fe6cddb0d2d9e95b8febcc90b0803bbc41c3/icon.svg"
+          image="https://raw.githubusercontent.com/smallwoj/join-sound-johnson-py/c768fe6cddb0d2d9e95b8febcc90b0803bbc41c3/icon.svg"
           source-code="https://github.com/smallwoj/join-sound-johnson-py"
         >
           <template v-slot:text>
