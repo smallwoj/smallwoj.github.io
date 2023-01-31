@@ -59,7 +59,7 @@
           cols="12"
           md="6"
         >
-          <technologies />
+          <tech-list />
         </v-col>
         <v-spacer />
       </v-row>
@@ -69,7 +69,7 @@
           cols="12"
           md="6"
         >
-          <projects />
+          <project-list />
         </v-col>
         <v-spacer />
       </v-row>
@@ -79,8 +79,8 @@
 
 <script>
 import PersonalInfo from './components/PersonalInfo';
-import Technologies from './components/Technologies';
-import Projects from './components/Projects';
+import TechList from './components/TechList';
+import ProjectList from './components/ProjectList';
 
 export default {
   name: 'App',
@@ -88,8 +88,8 @@ export default {
 
   components: {
     PersonalInfo,
-    Technologies,
-    Projects,
+    TechList,
+    ProjectList,
   },
 
   data: () => ({
