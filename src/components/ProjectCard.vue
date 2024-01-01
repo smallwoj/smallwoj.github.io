@@ -40,13 +40,22 @@
             Source Code
           </v-btn>
           <v-btn
-            :v-if="play"
+            v-if="play"
             :href="play"
             target="_blank"
             color="primary"
           >
             <v-icon left>mdi-play</v-icon>
             Play
+          </v-btn>
+          <v-btn
+            v-if="discordAdd"
+            :href="discordAdd"
+            target="_blank"
+            color="primary"
+          >
+            <v-icon left>mdi-plus</v-icon>
+            Add to server
           </v-btn>
         </v-card-actions>
       </v-card>
@@ -74,6 +83,10 @@ export default {
       type: String,
       default: '',
     },
+    discordAdd: {
+      type: String,
+      default: '',
+    }
   },
   data() {
     return {

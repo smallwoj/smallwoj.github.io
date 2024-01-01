@@ -22,7 +22,7 @@
           <v-card-text>
             <p>
               I am a Computer Science graduate from the University of Manitoba in the Co-op Program. I am
-              a full-time Software Engineer at FarmLink Marketing Solutions, where I work in the full stack to 
+              a full-time Software Engineer at GrainFox, where I work in the full stack to 
               develop a comprehensive web application.
             </p>
             <p>
